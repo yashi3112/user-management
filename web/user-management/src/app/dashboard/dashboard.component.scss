@@ -1,0 +1,17 @@
+.dashboard-wrapper {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .body-wrapper {
+    display: flex;
+    flex: 1;
+    .card {
+      flex: 1;
+      margin: 20px auto auto;
+      max-width: 600px;
+      .text-bold {
+        font-weight: 800;
+      }
+    }
+  }
+}
